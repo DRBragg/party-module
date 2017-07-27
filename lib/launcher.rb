@@ -1,4 +1,4 @@
 class Launcher
   include PartyGoer
-  extend PartyGoer
+  extend Invitation
 end

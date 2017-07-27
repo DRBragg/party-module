@@ -21,6 +21,9 @@ module PartyGoer
   def cause_havoc
       raise PersonalizedHavocError
   end
+end
+
+module Invitation
 
   def invited?
     true
